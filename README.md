@@ -1,4 +1,6 @@
-Nesya Uffaira Putri
+Nama: Nesya Uffaira Putri
+Kelas: RJ23A
+NIM: 2390343101
 
 **Aplikasi todo list berbasis website menggunakan flutter dan firebase**
 
