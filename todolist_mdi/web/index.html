@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Flutter To-Do List</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#FFA726">
+    <meta name="description" content="To-Do List with Flutter Web and Firebase">
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.1/firebase-analytics-compat.js"></script>
+
+    <script>
+      const firebaseConfig = {
+        apiKey: "AIzaSyBQ-9AB2EMSOB-2jtUvyyq51dD9KRvW1pc",
+        authDomain: "todolist-412a2.firebaseapp.com",
+        projectId: "todolist-412a2",
+        storageBucket: "todolist-412a2.firebasestorage.app",
+        messagingSenderId: "926307458175",
+        appId: "1:926307458175:web:1acab3192bf3babaff334a",
+        measurementId: "G-34TSRWFY4V"
+      };
+
+      // Inisialisasi Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+  </head>
+
+  <body>
+    <script src="main.dart.js" type="application/javascript"></script>
+  </body>
+</html>
